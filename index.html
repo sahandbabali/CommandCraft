@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CommandCraft</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- As a heading -->
+  <nav class="navbar bg-primary bg-gradient" data-bs-theme="dark">
+    <div class="container">
+      <span class="navbar-brand mb-0 h1"><i class="bi bi-terminal-fill"></i> CommandCraft</span>
+    </div>
+  </nav>
+
+  <div id="maincontainer" class="container pt-3">
+    <div class="card text-bg-dark mb-3 ">
+      <div id="topcommand" class="card-body command-line">
+        <p class="">> Welcome to CommandCraft</p>
+        <p class="">> Level 0 | Are you ready to start?</p>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-11">
+        <div class="card">
+          <div id="commandline" class="card-body drag-drop-container" style="height: 88px">
+            <!-- <span class="dragelement bg-gradient">hi</span>
+              <span class="dragelement bg-gradient">hi</span>
+
+              <span class="dragelement bg-gradient">hi 3</span> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1">
+        <button id="enterbtn" type="button" class="btn btn-primary bg-gradient" style="height: 100%; width: 100%">
+          ⏎
+        </button>
+      </div>
+    </div>
+
+    <div class="card mt-3">
+      <div id="heap" class="card-body drag-drop-container"></div>
+    </div>
+
+    <p>sahandbabali.com</p>
+  </div>
+
+  <script defer src="./script.js"></script>
+</body>
+
+</html>

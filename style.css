@@ -1,0 +1,95 @@
+/* Override Navbar Colors */
+.navbar {
+  background-color: #333333 !important; /* Navbar Background Color */
+}
+
+.navbar-nav .nav-link {
+  color: #ecf0f1 !important; /* Navbar Text Color */
+}
+
+/* Override Button Colors */
+.btn-primary {
+  background-color: #3498db !important; /* Primary Color (Blue) */
+  border-color: #3498db !important;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9 !important; /* Slightly darker on hover */
+  border-color: #2980b9 !important;
+}
+
+.btn-secondary {
+  background-color: #e74c3c !important; /* Secondary Color (Red) */
+  border-color: #e74c3c !important;
+}
+
+.btn-secondary:hover {
+  background-color: #c0392b !important; /* Slightly darker on hover */
+  border-color: #c0392b !important;
+}
+
+/* Customize Background and Text Colors */
+body {
+  background-color: #2c3e50 !important; /* Background Color (Dark Blue) */
+  color: #ecf0f1 !important; /* Text Color (Light Gray) */
+}
+
+.card .command-line {
+  background-color: #000 !important; /* Dark background color */
+  color: #00ff00 !important; /* Green text color */
+  font-family: "Courier New", monospace !important; /* Monospace font for code-like appearance */
+  padding: 10px !important; /* Add padding for readability */
+  border-radius: 5px !important; /* Rounded corners for the card */
+}
+
+.card .command-line pre {
+  margin: 0 !important; /* Remove default margin for <pre> element */
+  white-space: pre-wrap !important; /* Preserve line breaks */
+  font-size: 16px !important; /* Adjust font size as needed */
+}
+
+#topcommand {
+  height: 200px;
+  overflow: scroll;
+}
+
+#topcommand p {
+  margin-bottom: 0px;
+}
+
+.dragelement {
+  background-color: #ffa07a; /* Lighter Orange */
+  color: #333; /* Text Color for elements */
+
+  padding: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: grab;
+}
+
+#heap .dragelement {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#heap {
+  overflow: scroll;
+  scrollbar-color: #3498db #f2f2f2; /* Color of the scrollbar track and thumb */
+}
+
+.mycommand {
+  /* background-color: green; */
+  color: violet; /* Set the text color to violet */
+}
+
+.mycommandred {
+  /* background-color: green; */
+  color: red; /* Set the text color to violet */
+}
+
+#maincontainer {
+  height: calc(100dvh - 50px) !important;
+}
+body {
+  height: 100dvh;
+}
